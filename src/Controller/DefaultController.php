@@ -12,7 +12,7 @@ class DefaultController extends \Symfony\Bundle\FrameworkBundle\Controller\Abstr
     public function index()
     {
 
-        return $this->render('Pages/index.html.twig', [
+        return $this->render('/Pages/index.html.twig', [
 
         ]);
     }
